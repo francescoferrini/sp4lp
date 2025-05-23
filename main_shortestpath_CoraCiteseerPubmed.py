@@ -289,7 +289,6 @@ def test_with_path(model, data, x, evaluator_hit, evaluator_mrr, batch_size, dev
     neg_valid_pred = neg_valid_pred.squeeze(-1)
     neg_test_pred = neg_test_pred.squeeze(-1)
 
-    print('train valid_pos valid_neg test_pos test_neg', pos_train_pred.size(), pos_valid_pred.size(), neg_valid_pred.size(), pos_test_pred.size(), neg_test_pred.size())
 
     result = get_metric_score(evaluator_hit, evaluator_mrr, pos_train_pred, pos_valid_pred, neg_valid_pred, pos_test_pred, neg_test_pred)
 
@@ -398,8 +397,6 @@ def test(model, score_func, data, x, evaluator_hit, evaluator_mrr, batch_size):
     neg_valid_pred = neg_valid_pred.squeeze(-1)
     neg_test_pred = neg_test_pred.squeeze(-1)
 
-
-    print('train valid_pos valid_neg test_pos test_neg', pos_train_pred.size(), pos_valid_pred.size(), neg_valid_pred.size(), pos_test_pred.size(), neg_test_pred.size())
     
     result = get_metric_score(evaluator_hit, evaluator_mrr, pos_train_pred, pos_valid_pred, neg_valid_pred, pos_test_pred, neg_test_pred)
     
@@ -443,8 +440,6 @@ def run_all_configs(x, train_pos, data, args, device):
     all_results = []
 
     for idx, config in enumerate(configs):
-        print(f"\n========== Running config {idx + 1}/{len(configs)} ==========")
-        print(config)
 
         model = build_model_from_config(config).to(device)
         optimizer = torch.optim.Adam(model.parameters(), lr=args.lr, weight_decay=args.l2)
