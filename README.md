@@ -1,6 +1,7 @@
-# GNNs Meet Sequence Models Along the Shortest-Path: An Expressive method for Link Prediction
+# Improving expressivity in Link Prediction with GNNs via the Shortest Path
 
-## Anonymized Repository for NeurIPS 2025 Submission
+## Anonymized Repository for ICLR 2026
+Submission
 
 This repository contains the source code and instructions to reproduce the experiments for our NeurIPS 2025 submission.
 
