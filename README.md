@@ -1,4 +1,4 @@
-# Improving expressivity in Link Prediction with GNNs via the Shortest Path
+# GNNs Meet Sequence Models Along the Shortest-Path: an Expressive Method for Link Prediction
 
 ## Anonymized Repository for ICML 2026
 Submission
