@@ -1,6 +1,6 @@
 # Improving expressivity in Link Prediction with GNNs via the Shortest Path
 
-## Anonymized Repository for ICLR 2026
+## Anonymized Repository for ICML 2026
 Submission
 
 This repository contains the source code and instructions to reproduce the experiments for our ICLR 2026 submission.
