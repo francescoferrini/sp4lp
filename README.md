@@ -1,9 +1,9 @@
 # GNNs Meet Sequence Models Along the Shortest-Path: an Expressive Method for Link Prediction
 
-## Anonymized Repository for ICML 2026
+## Anonymized Repository for NeurIPS 2026
 Submission
 
-This repository contains the source code and instructions to reproduce the experiments for our ICML 2026 submission.
+This repository contains the source code and instructions to reproduce the experiments for our NeurIPS 2026 submission.
 
 ### Requirements
 
